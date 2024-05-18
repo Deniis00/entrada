@@ -1,0 +1,35 @@
+.verde-row {
+    background-color: #e6ffed; /* Un verde muy claro */
+}
+
+.rojo-row {
+    background-color: #ffe6e6; /* Un rojo muy claro */
+}
+
+
+
+@media (max-width: 576px) {
+    .dataTables_paginate .paginate_button {  
+        display: none;
+    }
+    .dataTables_paginate .ellipsis {  
+        display: inline-block;
+    }
+    .dataTables_paginate .paginate_button.previous,
+    .dataTables_paginate .paginate_button.next {  
+        display: inline-block;
+    }
+}
+
+#listado-custom .verde-row {
+    background-color: #e6ffed !important; /* Un verde muy claro */
+}
+
+#listado-custom .rojo-row {
+    background-color: #ffe6e6 !important; /* Un rojo muy claro */
+}
+
+
+#listado-custom {
+    display: none; /* Oculta la tabla inicialmente */
+}
